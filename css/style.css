@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 80%;
+    margin: 15px auto;
+}
+
+
+/* common */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.m-tb {
+    margin: 10px 0px;
+}
+
+
+
+/* inizio corpo */
+
+main {
+    padding: 20px 0;
+    
+}
+
+.main-aside {
+    width: 20%;
+    float: left;
+}
+
+.main-section {
+    width: 50%;
+    float: left;
+    margin: 0% 5%;
+}
+
+.widget {
+    background-color: powderblue;
+    width: 100%;
+}
+
+
+/* footer */
+
+.container-footer {
+    height: 150px;
+    background-color: sandybrown;
+}
+
+
+
+
+
+  /* debug */
+
+/* .debug .container {
+    background-color: blue;
+} */
+
+.debug header {
+    background-color: red;
+    height: 400px ;
+}
+
+.debug .header-top {
+    height: 340px;
+    background-color: green;
+}
+
+.debug .header-menu {
+    height: 60px;
+    background-color: pink;
+}
+
+.debug .main-asidesx {
+    height: 200px;
+    background-color: yellow;
+}
+
+.debug .main-section {
+    height: 200px;
+    background-color: green;
+}
+
+
+.debug .widget {
+    height: 200px;
+}
+
+
+.debug .container-footer {
+    height: 150px;
+    background-color: sandybrown;
+}
